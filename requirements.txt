@@ -1,0 +1,10 @@
+# NetPulse Pro — Requirements
+# Install dengan: pip install -r requirements.txt --prefer-binary
+# Flag --prefer-binary memastikan paket pre-compiled (wheel) diunduh,
+# sehingga tidak memerlukan C compiler di Windows.
+
+customtkinter==5.2.2      # UI Framework dark mode modern
+matplotlib>=3.9.0         # Visualisasi bar chart & grafik
+dnspython>=2.6.0          # Library DNS query (dns.resolver)
+requests>=2.32.0          # HTTP client untuk DoH API
+Pillow>=10.4.0            # Dependency customtkinter (image support)
